@@ -2,7 +2,7 @@ FROM kibana:4.3.1
 MAINTAINER Hoa Nguyen <hoa.nguyenmanh@tiki.vn>
 
 # Timezone
-echo "Asia/Bangkok" > /etc/timezone && dpkg-reconfigure -f noninteractive tzdata
+RUN echo "Asia/Bangkok" > /etc/timezone && dpkg-reconfigure -f noninteractive tzdata
 
 # Install plugins
 RUN kibana plugin --install elastic/sense
