@@ -2,7 +2,7 @@
 This is a Dockerfile to build a container image for kibana
 
 ## Git repository
-The source files for this project can be found here: https://github.com/tikivn/talaria-docker/tree/master/kibana
+The source files for this project can be found here: https://github.com/taladocker/kibana
 
 ## Pulling from Docker Hub
 Pull the image from docker hub rather than downloading the git repo. This prevents you having to build the image on every docker host:
